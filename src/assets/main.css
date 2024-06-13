@@ -1,0 +1,80 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  margin: 0 auto;
+  width:100%
+}
+
+a {
+  text-decoration: none;
+}
+.mw{
+  max-width:80%
+}
+.focus{
+  background-color:#0969da;
+}
+.focus-shown{
+  position:absolute;
+}
+.focus-shown:not(:focus){
+  width:1px;
+  height:1px;
+  padding:0;
+  overflow:hidden;
+  clip:(rect(1px, 1px, 1px, 1px));
+  border:0;
+}
+.github-icon{
+  color:#1f2328;
+}
+/* skeleton loading */
+.skeleton{
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+@keyframes skeleton-loading{
+  0%{
+    background-color: hsl(200, 20%, 80%);
+  }
+  100%{
+    background-color:hsl(200, 20%, 95%);
+  }
+}
+/* main styling */
+.main{
+  display:grid;
+  gap:28px;
+  grid-template-columns:305px 1fr;
+}
+/* repoPage styling */
+.pag-btn {
+  position: relative;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  box-sizing: border-box;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+  font-size: 0.8rem;
+}
+.pag-btn:hover::before {
+  width: 100%;
+  background-color: #242424;
+  transition: width 700ms ease-in-out;
+}
+.pag-btn:focus {
+  border: 2px solid #e8e8e8;
+}
+@media screen and (max-width: 768px) {
+  .main{
+    grid-template-columns:1fr;
+    grid-template-row:auto auto
+  }
+ 
+}
+
