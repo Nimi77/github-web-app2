@@ -17,7 +17,7 @@ const router = createRouter({
       }
     },
     {
-      path: '/repo/:id',
+      path: '/repository/:id',
       name:'RepositoryDetailsPage',
       component: RepoDetailsPage,
       meta:{
@@ -26,7 +26,7 @@ const router = createRouter({
       }
     },
     {
-      path: '/404',
+      path: '/404Page',
       name: 'not-found',
       component: NotFoundPage,
       meta:{

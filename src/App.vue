@@ -1,18 +1,17 @@
 <script setup>
-   import NavBar from './components/NavBar.vue';
-   import SideBar from './components/SideBar.vue'
+import NavBar from './components/NavBar.vue';
+import SideBar from './components/SideBar.vue';
+import ErrorBoundary from './views/ErrorBoundary.vue';
 </script>
 
 <template>
   <div>
-    <NavBar/>
-    <div class="main mt-3" id="main-content">
-      <SideBar/>
-      <router-view/>
+    <NavBar />
+    <div class="main">
+      <SideBar />
+      <ErrorBoundary>
+        <router-view />
+      </ErrorBoundary>
     </div>
   </div>
 </template>
-
-<style scoped>
-
-</style>

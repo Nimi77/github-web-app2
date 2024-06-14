@@ -7,9 +7,11 @@
   margin: 0 auto;
   width:100%
 }
-
 a {
   text-decoration: none;
+}
+button:focus{
+  outline:none ;
 }
 .mw{
   max-width:80%
@@ -33,21 +35,24 @@ a {
 }
 /* skeleton loading */
 .skeleton{
+  display: inline-block;
   animation: skeleton-loading 1s linear infinite alternate;
 }
-@keyframes skeleton-loading{
-  0%{
-    background-color: hsl(200, 20%, 80%);
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(0, 0%, 80%); 
   }
-  100%{
-    background-color:hsl(200, 20%, 95%);
+  100% {
+    background-color: hsl(0, 0%, 95%); 
   }
 }
 /* main styling */
 .main{
   display:grid;
-  gap:28px;
   grid-template-columns:305px 1fr;
+}
+.user-profile p{
+  line-height:22px;
 }
 /* repoPage styling */
 .pag-btn {
