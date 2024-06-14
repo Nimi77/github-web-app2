@@ -20,7 +20,7 @@ This project is a Vue.js application designed to mimic the GitHub web interface 
 
 ## Demo
 
-You can check out a live demo of the project [here](#https://github-web-app2-64181h6sb-toluwanimis-projects.vercel.app/).
+You can check out a live demo of the project [here](https://github-web-app2-64181h6sb-toluwanimis-projects.vercel.app/).
 
 ## Features
 
