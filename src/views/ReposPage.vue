@@ -88,7 +88,7 @@ onMounted(() => {
 
 <template>
   <div class="repository">
-    <div class="r-content flex flex-col justify-center lg:pt-4 lg:pb-6 pb-8" id="main-content">
+    <div class="r-content flex flex-col justify-center lg:pt-5 lg:pb-6 pb-8" id="main-content">
       <!-- search and filter-->
       <div v-if="!sLoading" class="searchFilter flex justify-center gap-3">
         <div id="search">

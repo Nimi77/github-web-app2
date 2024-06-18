@@ -20,7 +20,7 @@ This project is a Vue.js application designed to mimic the GitHub web interface 
 
 ## Demo
 
-You can check out a live demo of the project [here](#https://github-web-app2-64181h6sb-toluwanimis-projects.vercel.app/).
+You can check out a live demo of the project [here](https://github-web-app2-64181h6sb-toluwanimis-projects.vercel.app/).
 
 ## Features
 
@@ -37,16 +37,14 @@ Lists all the repositories for a given GitHub user. It fetches data from the Git
 Octokit and displays it in a list format.
 
 **RepoDetailsPage**
-Displays detailed information about a single repository, such as the repository's name, description,
-stars, forks, and other relevant information.
+Displays detailed information about a single repository, such as the repository's name, description,stars, forks, and other relevant information.
 
 **ErrorBoundary**
 Captures any errors in the application and renders a fallback UI. This helps in handling any 
 unexpected issues in the app. The [Overview] nav shows the error in the application if there is any.
 
 **NotFoundPage**
-Renders a 404 error page when a user navigates to a non-existing route. The [Action] nav is use 
- as the non existing route
+Renders a 404 error page when a user navigates to a non-existing route. The [Action] nav is use as the non existing route.
 
-## Screnshots
+## Screnshot
 ![A screenshot of the Github Web UI](/public/github-web.jpg)
