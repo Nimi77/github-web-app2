@@ -1,6 +1,6 @@
 # GitHub Repository 
 
-This project is a Vue.js application designed to mimic the GitHub web interface by consuming the GitHub API using Octokit. The application uses Tailwind CSS for styling and includes the following main components:
+This project is a Vue.js application designed to replicate the GitHub web interface by consuming the GitHub API using Octokit. The application uses Tailwind CSS for styling and includes the following main components:
 
 - RepoPage: Lists all the repositories available for a given user.
 - RepoDetailsPage: Displays details for a single repository.
