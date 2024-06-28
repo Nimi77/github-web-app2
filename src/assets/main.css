@@ -78,7 +78,7 @@ button:focus{
 @media screen and (max-width: 768px) {
   .main{
     grid-template-columns:1fr;
-    grid-template-row:auto auto
+    grid-template-rows:auto auto
   }
  
 }
